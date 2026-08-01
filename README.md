@@ -13,10 +13,10 @@ The project is structured into three main engineering phases:
  * *Modular Chassis:* 3-tier internal mounting plates secured via 4$\times$ M3 threaded rods.
  * *Impact Mitigation:* Bottom-mounted TPU (Thermoplastic Polyurethane) damping base.
  * *Dimensions:* Outer diameter tailored to fit standard rocket payload bays (6.8\text{ cm}).
-   ![Mekanik görünüş1](docs/images/cansat_1.png)
-   ![Mekanik görünüş2](docs/images/cansat_2.png)
-   ![Mekanik görünüş3](docs/images/cansat_3.png)
-   ![Mekanik görünüş patlamış](docs/images/cansat_exploded.png)
+   ![Mekanik görünüş1](code/images/cansat_1.png)
+   ![Mekanik görünüş2](code/images/cansat_2.png)
+   ![Mekanik görünüş3](code/images/cansat_3.png)
+   ![Mekanik görünüş patlamış](code/images/cansat_exploded.png)
    
 ### 2. Flight Dynamics & Trajectory (OpenRocket)
  * *Rocket Length:* 75\text{ cm} | *Max Diameter:* 6.8\text{ cm}
@@ -35,7 +35,7 @@ The Ground Station reads NMEA-formatted telemetry data packets ($CANSAT,PACKET_N
  * *Live Altitude Tracking:* Real-time descent plot with turbulence noise emulation.
  * *Dynamic Compass Widget:* Custom Canvas-rendered compass needle tracking satellite heading (0-360^\circ).
  * *Telemetry Telemetry Data Card:* Packet counter, temperature, altitude, and orientation angles.
-![Yer İstasyonu Arayüzü](docs/images/ground_station_ui.png)
+![Yer İstasyonu Arayüzü](code/images/ground_station_ui.png)
 
 ## Tech Stack & Tools
  * *CAD Modeling:* Ansys SpaceClaim 2026
